@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/** A quick baseline grid overlay using css+svg. Inspired by [Basehold.it](https://basehold.it/). @author leshido */* {  box-sizing: border-box;}body{  margin: 0;  padding: 0;  background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);  height: 100vh;  display: flex;  justify-content: center;  align-items: center;}#Cart-container{  width: 70%;  height: 85%;  margin: 80px auto;  background-color: #FFFFFF;  border-radius: 20px;  box-shadow: 0px 25px 40px #1687d933;  display: flex;  flex-direction: column;}header{  margin: auto;  width: 90%;  height: 15%;  display: flex;  justify-content: space-between;  align-items: center;}#Heading{  height: 60px;  font-size: 20px;  font-family: 'Open Sans';  font-weight: 700;  color: #2F3841;}.Action{  font-size: 14px;  font-family: 'Open Sans';  font-weight: 600;  color: #E44C4C;  cursor: pointer;  border-bottom: 1px solid #E44C4C;}
+/*
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-color: #7ec855;
+  font-family: sans-serif;
+}
+.shopping-cart {
+  width: 750px;
+  height: 423px;
+  margin: 80px auto;
+  background-color: #FFFFFF;
+  border-radius: column;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  height: 60px;
+  border-bottom: 1px solid #E1EBEE;
+  padding: 20px 30px;
+  color: #5e6977;
+  font-size: 18px;
+  font-weight: 400;
+}
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+.item:nth-child(3) {
+  border-top: 1px solid #E1EBEE;
+  border-bottom: 1px solid #E1EBEE;
+}
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+.delete-btn, .like-btn {
+  display: inline-block;
+  cursor: pointer;
+}
+.delete-btn {
+  width: 18px;
+  height: 17px;
+  background: url(&amp;quot;delete-ich.svg&amp;quot;) no-repeat center;
+}
+.like-btn {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  background: url('twitter-heart.png');
+  width: 60px;
+  height: 60px;
+  background-size: 2900%;
+  background-repeat: no-repeat;
+}
+.is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+@keyframes animate {
+  0% {background-position: left;}
+  50% {background-position: right;}
+  100% {background-position: right;}
+}
+.image {
+  margin-right: 50px;
+}
+.description {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+}
+.description span {
+  display: block;
+  font-size: 14px;
+  color: #43484d;
+  font-weight: 400;
+}
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939e;
+}
+.quantity {
+  padding-top: 20px;
+  margin-top: 60px;
+}
+.quantity input {
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484d;
+  font-weight: 300;
+}
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #E1EBEE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top: 2px;
+}
+button:focus, input:focus {
+  outline: 0;
+}
+.total-price {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484d;
+  font-weight: 300;
+}
+.quantity img {
+  align-items: center;
+  width: 24px;
+  height: 24px;
+}
+*/
